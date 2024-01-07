@@ -1,4 +1,7 @@
-/* common shared styles */
+/*
+ common shared styles 
+ */
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-family: 'Roboto', sans-serif;
@@ -18,7 +21,10 @@ body {
   font-size: 18px;
 }
 
-/* nav related styles */
+/*
+ nav related styles
+  */
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -51,7 +57,11 @@ nav a {
   text-decoration: none;
   color: #474747;
 }
-/* header related styles */
+
+/*
+ header related style
+  */
+
 .header {
   background-color: #fff8f3;
   background-image: url(/images/header_bg.png);
@@ -88,13 +98,19 @@ nav a {
   margin-bottom: 30px;
 }
 
-/* main section styles */
+/*
+ main section styles
+  */
+
 main {
   max-width: 1140px;
   margin: 0 auto;
 }
 
-/* about section styles */
+/* 
+about section styles
+ */
+
 .about {
   padding: 130px;
   border-radius: 10px;
@@ -109,7 +125,9 @@ main {
   text-align: center;
 }
 
-/* skills related styles */
+/*
+skills related styles
+ */
 
 #what-i-do-description {
   padding: 20px 150px 0 150px;
@@ -127,7 +145,11 @@ main {
 .skill-description {
   color: #757575;
 }
-/* Resume section styles */
+
+/*
+ Resume section styles
+  */
+
 .resume-column-title {
   color: #474747;
 
@@ -159,4 +181,13 @@ main {
 .download-cv {
   text-align: center;
   margin: 50px;
+}
+/* 
+Footer styles
+ */
+footer {
+  background-color: #fff8f3;
+  display: flex;
+  padding: 130px;
+  margin-top: 100px;
 }
